@@ -1,0 +1,8 @@
+{
+  "name": "2026 PH NEP Budget",
+  "description": "Comprehensive analytical briefing and interactive financial dashboard for the ₱7.2 Trillion 2027 Philippine National Expenditure Program (NEP).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

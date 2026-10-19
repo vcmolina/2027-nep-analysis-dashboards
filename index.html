@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2027 Philippine Budget Architecture Dashboard</title>
+    <meta name="description" content="Comprehensive analytical briefing and interactive financial dashboard for the ₱7.2 Trillion 2027 Philippine National Expenditure Program (NEP)." />
+    <meta property="og:title" content="2027 Philippine Budget Architecture Dashboard" />
+    <meta property="og:description" content="Comprehensive analytical briefing and interactive financial dashboard for the ₱7.2 Trillion 2027 Philippine National Expenditure Program (NEP)." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+    <!-- GitHub Pages SPA routing decoder -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+
+    <!-- Google Fonts: Playfair Display (Serif headings), Inter (Prose), Space Mono & Roboto Mono (Data/Numerals) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Roboto+Mono:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#0B1120] text-slate-100 antialiased selection:bg-blue-500/30 selection:text-blue-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
